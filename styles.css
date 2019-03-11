@@ -1,0 +1,44 @@
+button{
+    width:100px;
+    height:20px;
+    background-color: #cbbaf2;
+}
+
+h1{
+    font-family: 'Aladin', cursive;
+    background:yellow;
+}
+
+h2{
+    font-family: 'Londrina Outline', cursive;
+    background:red;
+    color:white;
+}
+
+p{
+    display:none;
+}
+
+img{
+    height:200px;
+    width:350px;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+.other{
+    background:pink;
+}
+
+.fortune{
+    background:lavender;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+body{
+    text-align:center;
+    background:#c9e9fc;
+    border: 2px solid black;
+}
