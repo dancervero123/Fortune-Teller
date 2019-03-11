@@ -59,13 +59,11 @@ body{
         <div class="other">
             <img src="https://blog.hdwallsource.com/wp-content/uploads/2016/02/dark-abstract-math-wallpaper-49714-51393-hd-wallpapers.jpg"><br>
             <input class="eom" placeholder="Type Your Answer">
-            <button class="qone">Submit</button>
         </div>
         <h2>Tacos or Cookies?</h2>
         <div class="other">
             <img src="http://del.h-cdn.co/assets/15/50/1600x800/landscape-1449679172-delish-biscoff-cookies.jpg"><br>
             <input class="toc" placeholder="Type Your Answer">
-            <button class="qtwo">Submit</button>
         </div>
         <h2>What year were you born?</h2>
         <div class="other">
@@ -77,13 +75,12 @@ body{
         <div class="other">
             <img src="https://i.ytimg.com/vi/noUdJi9_adA/maxresdefault.jpg"><br>
             <input class="ten" placeholder="Type Your Answer">
-            <button class="qfour">Submit</button>
         </div>
         <h2>What is your favorite color?</h2>
         <div class="other">
             <img src="http://i.snag.gy/RN3cz.jpg"><br>
             <input class="blue" placeholder="Type Your Answer">
-            <button class="qfive">Submit</button>
+            <button>Submit</button>
             </div>
         <div class="fortune">
             <p> After walking to </p>
@@ -106,32 +103,18 @@ body{
 
 <script>
 /*__POPCODESTART__*/
-$(".qone").click(function(){
+$("button").click(function(){
     var em=$(".eom").val();
     $(".end").append(em);
-    });
-    
-$(".qtwo").click(function(){
     var tc=$(".toc").val();
     $(".nde").append(tc);
-    });
-          
-$(".qthree").click(function(){
     var year=$(".baby").val();
     $(".dne").append(2019 - parseInt(year));
-    });
-
-    
-$(".qfour").click(function(){
+    var color=$(".blue").val();
     var number=$(".ten").val();
     var year=$(".baby").val();
     $(".now").append((2019 - parseInt(year))*parseInt(number));
     $(".won").append(number);
-    });
-    
-    
-$(".qfive").click(function(){
-    var color=$(".blue").val();
     $(".ew").append(color);
     $("p").show();
     $("h1").hide();
@@ -141,8 +124,5 @@ $(".qfive").click(function(){
     $("input").hide();
     $(".other").hide();
     });
-    
-
-
 
 </script></body></html>
